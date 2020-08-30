@@ -1,4 +1,4 @@
-package br.edu.ifsp.arq.meupocket;
+package br.pro.ednilsonrossi.meupocket;
 
 import android.content.Context;
 
@@ -21,6 +21,7 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("br.edu.ifsp.arq.meupocket", appContext.getPackageName());
+
+        assertEquals("br.pro.ednilsonrossi.meupocket", appContext.getPackageName());
     }
 }

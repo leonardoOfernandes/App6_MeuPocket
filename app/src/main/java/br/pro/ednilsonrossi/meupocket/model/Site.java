@@ -1,9 +1,8 @@
-package br.edu.ifsp.arq.meupocket.model;
+package br.pro.ednilsonrossi.meupocket.model;
 
 import androidx.annotation.NonNull;
 
 public class Site {
-
     /**
      * Descreve o título do site, elemento <title>
      */
@@ -45,12 +44,14 @@ public class Site {
     public boolean isFavorito() {
         return favorito;
     }
+
     /**
      * Torna o site um favorito.
      */
     public void doFavotite(){
         this.favorito = true;
     }
+
     /**
      * Faz com que o site não seja mais favorito.
      */

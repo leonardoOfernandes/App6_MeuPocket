@@ -1,4 +1,4 @@
-package br.edu.ifsp.arq.meupocket;
+package br.pro.ednilsonrossi.meupocket;
 
 import org.junit.Test;
 

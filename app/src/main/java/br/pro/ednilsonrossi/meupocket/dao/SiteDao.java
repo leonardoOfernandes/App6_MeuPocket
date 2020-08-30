@@ -1,9 +1,9 @@
-package br.edu.ifsp.arq.meupocket.dao;
+package br.pro.ednilsonrossi.meupocket.dao;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import br.edu.ifsp.arq.meupocket.model.Site;
+import br.pro.ednilsonrossi.meupocket.model.Site;
 
 public class SiteDao {
 
@@ -25,4 +25,5 @@ public class SiteDao {
 
         return arrayList;
     }
+
 }
